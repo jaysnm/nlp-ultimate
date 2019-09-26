@@ -38,7 +38,7 @@ Be sure to have experience in python fundamental syntax. This guide assumes it's
 > # Python Environment Setup
 
 ### **NOTE**
->    `$` denotes termonal input  
+>    `$` denotes terminal input  
 >    `>>>`  denotes input within python environment  
 >  `In [n]:` denotes input within ipython environment
 
