@@ -49,7 +49,8 @@ Packages update and ugrade
 build dependancies  
 
 `$ sudo apt install build-essential software-properties-common -y ` 
-` sudo apt install libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget -y
+` sudo apt install libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget libsqlite3-dev
+ sqlite3 -y
 `
 
 If you are on Debian, then you need to install zlib.
@@ -79,6 +80,12 @@ Build the binaries and install
 On terminal type
 
 `$ python3.7 `
+
+Alternatively, Install from ppa repositories (No build issues)
+
+`$ sudo add-apt-repository ppa:ubuntu-toolchain-r/ppa`   
+`$ sudo apt install python3.7`   
+
 
 ## Customizations
 
@@ -153,7 +160,7 @@ Activate and use the environment
 
 Add the following lines in your ~/.profile script:
 
-` export WORKON_HOME="$HOME/.virtualenvs" ` 
+` export WORKON_HOME="$HOME/.virtualenvs" `   
 ` VIRTUALENVWRAPPER_PYTHON='/usr/bin/python3.7' `  #This needs to be placed before the virtualenvwrapper command  
 ` source /usr/local/bin/virtualenvwrapper.sh `  
 
