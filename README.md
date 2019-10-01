@@ -194,7 +194,18 @@ Verify the changes
 
 `$ git config --list `
 
-> ## Finally install jupyter notebook
+> ## Create project virtual environment
 
 `$ mkvirtualenv nlpcrash `  
-`$ pip install ipython ipykernel jupyter `  
+
+> ## Install project dependancy packages
+`$ pip install -r requirements.txt`    
+
+**Go through the notebooks in this order**  
+1. data_mining.ipynb
+2. optimization.ipynb
+3. toward_datascience.ipynb
+4. data_handling.ipynb
+5. neural_network.ipynb
+6. nlp_libraries.ipynb
+7. nlp_project.ipynb
