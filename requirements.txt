@@ -1,0 +1,5 @@
+ipython
+ipykernel
+jupyter
+requests
+simplejson

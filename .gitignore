@@ -1,3 +1,7 @@
 **.pdf
 **.xlsx
 **/__pycache__/**
+.ipynb_checkpoints/**
+object*
+*.json
+*.pkl
