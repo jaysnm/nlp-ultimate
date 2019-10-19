@@ -11,3 +11,28 @@ xlwt
 xlutils
 psycopg2-binary
 Celery[redis]
+tensorflow
+tensorflow-gpu
+pillow
+Theano 
+torchvision
+cloudpickle
+future
+h5py
+matplotlib
+numpy
+scikit-image
+scikit-learn
+numpy
+pandas
+scipy
+simplejson
+keras
+-e git+https://github.com/MarcBS/keras.git#egg=keras
+-e git+https://github.com/lvapeab/coco-caption.git#egg=coco-caption
+keras_applications
+keras_preprocessing
+multimodal-keras-wrapper
+six
+tables
+sacremoses
