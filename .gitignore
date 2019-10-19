@@ -1,0 +1,5 @@
+*.txt
+/amazon-fine-food-reviews/
+*.csv
+/sentiment-labels/
+/.ipynb_checkpoints/
