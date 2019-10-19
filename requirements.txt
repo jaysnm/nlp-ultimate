@@ -1,0 +1,13 @@
+ipython
+ipykernel
+jupyter
+requests
+simplejson
+beautifulsoup4
+openpyxl
+xlsxwriter
+xlrd
+xlwt
+xlutils
+psycopg2-binary
+Celery[redis]
